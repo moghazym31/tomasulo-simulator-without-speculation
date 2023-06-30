@@ -1,0 +1,4 @@
+ADDI R1, R0, 4
+BEQ R0, R0, Exit
+ADDI R3, R3, 5
+Exit:LOAD R3, 0(R0)
